@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            Dashboard
+        </title>
+        <link  rel = "stylesheet" type = "text/css" href = "css/my.css">
+    </head>
+    <body>
+        <div class="header">
+            <p>send a message Worth reading</p>
+        </div>
+        <div class="navigation">
+            <a href="/">|Home|</a>
+            <a href="#">|About|</a>
+            <a href="register.html">|Create_a_Account|</a>
+            <a href="login.html">|login|</a>
+            <a href="#">|Contact US|</a>
+        </div>
+        <div class="content one">
+        <br><br><br><br><br>
+            welcome {{name}}<br>
+            share this think to get secret messages:<br>
+            <a href="{{id}}">{{host}}/{{id}}<a>
+        <br><br><br><br><br>
+        </div>
+        <div class="content two">
+            <center>
+                <p>messages</p>
+                {{message}}
+                <br><br><br><br><br>
+                <br><br><br><br>
+            </center>
+        </div>
+        <div class="content three">
+        <br><br><br><br><br>
+        <center>
+            <form action="update.html" method="POST">
+                <table>
+                    <tr>
+                        <th>old password</th>
+                        <td><input type="email" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <th>new Password</th>
+                        <td><input type="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="update" name="submit" required></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+        </div>
+        <div class="footer">
+            <p>all rights reservd @creative</p>
+        </div>
+    </body>
+</html>

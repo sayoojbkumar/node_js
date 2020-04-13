@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            messages
+        </title>
+        <link  rel = "stylesheet" type = "text/css" href = "css/my.css">
+    </head>
+    <body>
+        <div class="header">
+            <p>Create a Blog Worth Sharing</p>
+        </div>
+        <div class="navigation">
+            <a href="/">|Home|</a>
+            <a href="#">|About|</a>
+            <a href="register.html">|Create_a_Account|</a>
+            <a href="login.html">|login|</a>
+            <a href="#">|Contact US|</a>
+        </div>
+        <div class="content one">
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br>
+        </div>
+        <div class="content two">
+            <br><br><br><br><br><br><br><br><br><br>
+            <center>
+            <table>
+                <tr><th><p>messages</p></th></tr>
+                <form action="send_mssg.mustache" method='POST'>
+                    <tr><td><INPUT TYPE="text" NAME="id" value="{{msgid}}" readonly></tr></td>
+                    <tr><td><textarea name="message" rows="4" cols="50" required>
+                    </textarea></tr></td>
+                <tr><td><input type="submit" value="send" name="ok"></td></tr>
+                </form>
+            </table>
+            </center>
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <div class="content three">
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br>
+        </div>
+        <div class="footer">
+            <p>all rights reservd @creative</p>
+        </div>
+    </body>
+</html>
