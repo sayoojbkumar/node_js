@@ -31,7 +31,7 @@ app.post("/register.html",function(req,res){
     service:'gmail',
     auth:{
         user:"sayoojbkumar@gmail.com",
-        pass:"galaxyfive"
+        pass:"*********"
 
     }
    });
